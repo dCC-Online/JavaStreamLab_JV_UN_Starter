@@ -33,12 +33,14 @@ public class StreamLabService {
 	@Autowired
 	private ShoppingcartItemRepository shoppingcartitems;
 
+
+    // <><><><><><><><> R Actions (Read) <><><><><><><><><>
+
     public List<User> RDemoOne() {
     	// This query will return all the users from the User table.
     	return users.findAll().stream().toList();
     }
 
-    // <><><><><><><><> R Actions (Read) <><><><><><><><><>
     public long RProblemOne()
     {
         // Return the COUNT of all the users from the User table.
