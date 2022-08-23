@@ -197,13 +197,13 @@ public class StreamLabService {
 
     // For these bonus problems, you will also need to create their associated routes in the Controller file!
     
-	// DProblemOne
+    // DProblemOne
     // Delete the role relationship from the user who has the email "oda@gmail.com".
 
     // DProblemTwo
     // Delete all the product relationships to the user with the email "oda@gmail.com" in the ShoppingCart table.
 
     // DProblemThree
-    // Delete the user with the email "oda@gmail.com" from the Users table using LINQ.
+    // Delete the user with the email "oda@gmail.com" from the Users table.
 
 }
